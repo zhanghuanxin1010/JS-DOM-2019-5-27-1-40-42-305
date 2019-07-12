@@ -1,0 +1,33 @@
+﻿<html>
+<head></head>
+<body>
+<p>欢迎你！请先登录   </p>
+<p>账号<input id="username" type="text" name="username" valus=""></p>
+<p>密码<input id="password" type="text" name="password" valus=""></p></br>
+<button type="button" onclick="check()">登录</button><br>
+<script type="text/javascript">
+function check()
+    {
+	var username=document.getElementById("username");
+	var password=document.getElementById("password");
+	if((username.value)=="123"&&(password.value)=="123")
+	  {alert("登陆成功！")}
+	  else if(username.value==""&&password.value=="")
+	  {
+	   alert("请输入账号和密码！")
+	  }
+	  else{
+	  alert("输入错误！请检查密码和账号是否正确")
+	  password.value="";
+	  }
+	  
+	
+	}
+	</script>
+	</body>
+	</html>
+
+</script>
+
+</body>
+</html>
